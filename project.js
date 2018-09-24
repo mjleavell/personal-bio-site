@@ -29,7 +29,7 @@ let projects = [
 ];
 
 // WRITETODOM FUNCTION
-const writeToDom = (stringToPrint, divId) => {
+const printToDom = (stringToPrint, divId) => {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.innerHTML = stringToPrint;
 };
@@ -53,9 +53,51 @@ const createProjectCard = () => {
             newString += `</div>`;
         }
     }
-    writeToDom(newString, 'projectsPage');
+    printToDom(newString, 'projectsPage');
 };
 
+// such an easier way to do this with jquery
+const showPage = () => {
+    document.getElementById('navLinks').addEventListener('click', () => {
+        event.preventDefault();
+        if (event.target.id === "navToHome") {
+            document.getElementById('about').innerHTML = '';
+            document.getElementById('tech').innerHTML = '';
+            document.getElementById('project').innerHTML = '';
+        } else if (event.target.id === "navToAbout") {
+            let aboutString = `        
+            <div class="container">
+                <h1>About Me</h1>
+                <p>I am originally from Memphis, TN, but I have lived in Nashville for 6 years. I went to Vanderbilt University.</p>
+            </div>`;
+            printToDom(aboutString, 'about');
+            document.getElementById('home').innerHTML = '';
+            document.getElementById('tech').innerHTML = '';
+            document.getElementById('project').innerHTML = '';
+        } else if (event.target.id === "navToTech") {
+            let techString = `        
+            <div class="container">
+                <h1>Technology</h1>
+                <p>I like technology</p>
+            </div>`;
+            printToDom(techString, 'tech');
+            document.getElementById('home').innerHTML = '';
+            document.getElementById('about').innerHTML = '';
+            document.getElementById('project').innerHTML = '';
+        } else {
+            let projectString = `        
+            <div class="container">
+                <h1>Recent Projects</h1>
+                <div id="projectsPage"></div>
+            </div>`;
+            printToDom(projectString, 'project');
+            createProjectCard();
+            document.getElementById('about').innerHTML = '';
+            document.getElementById('tech').innerHTML = '';
+            document.getElementById('home').innerHTML = '';
+        }
+    })
+}
 
 // CALL FUNCTIONS
-createProjectCard();
+showPage()

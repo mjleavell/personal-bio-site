@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ML Bio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="">
-        <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    <nav>
         <ul class="navbar" id="navLinks">
-            <li><a class="navbar-link" id="navToBio" href="#bioPage">About</a></li>
-            <li><a class="navbar-link" id="navToTechologies" href="#technologiesPage">Technologies</a></li>
-            <li><a class="navbar-link" id="navToProjects" href="#projectPage">Projects</a></li>
+            <li><a class="navbar-link home-link" id="navToHome" href="#home">Home</a></li>
+            <li><a class="navbar-link about-link" id="navToAbout" href="#about">About</a></li>
+            <li><a class="navbar-link tech-link" id="navToTech" href="#tech">Technologies</a></li>
+            <li><a class="navbar-link project-link" id="navToProjects" href="#project">Projects</a></li>
         </ul>
     </nav>
     <!-- End Navigation -->
 
     <!-- Primary View -->
-    <div class="fullPage" id="bioPage">
-        <h1>About Me</h1>
-        <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    </div>
-    <div class="fullPage" id="technologiesPage">
-        <h1>Technologies</h1>
-        <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-    </div>
-    <h1>Recent Projects</h1> <!-- how can i get this to be displayed on website inside oroject div? -->
-    <div class="fullPage" id="projectsPage">
+    <div id="home">
+        <div class="container">
+                <h1>Maggie Leavell</h1>
+                <p>This will eventually contain an awesome image</p>
+        </div>
     </div>
 
+    <div id="about"></div>
+
+    <div id="tech"></div>
+
+    <div id="project"></div>
     <!-- End Primary View -->
 
     <!-- Footer -->
@@ -42,6 +44,13 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script src="project.js"></script>
 </body>
 
