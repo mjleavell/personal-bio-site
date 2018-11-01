@@ -2,12 +2,13 @@
   "name": "personal-bio-site",
   "version": "1.0.0",
   "description": "personal website",
-  "main": "project.js",
+  "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "lint": "eslint ./src --ext .js",
     "dev": "NODE_ENV=development webpack-dev-server --content-base dist --hot",
-    "start": "npm run lint && npm run dev"
+    "start": "npm run lint && npm run dev",
+    "projects": "json-server db/projects.json --port 3003"
   },
   "repository": {
     "type": "git",

@@ -9,35 +9,46 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <ul class="navbar" id="navLinks">
-            <li><a class="navbar-link home-link" id="navToHome" href="#home">Home</a></li>
-            <li><a class="navbar-link about-link" id="navToAbout" href="#about">About</a></li>
-            <li><a class="navbar-link tech-link" id="navToTech" href="#tech">Technologies</a></li>
-            <li><a class="navbar-link project-link" id="navToProjects" href="#project">Projects</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-collapse justify-content-md-center navbar-dark bg-dark" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project-page">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tech">Technologies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- End Navigation -->
 
     <!-- Primary View -->
     <div id="home">
         <div class="container">
-                <h1>Maggie Leavell</h1>
-                <p>This will eventually contain an awesome image</p>
+            <h1>Maggie Leavell</h1>
+            <p>This will eventually contain an awesome image</p>
         </div>
     </div>
-
     <div id="about"></div>
-
+    <div class="container" id="project-page">
+        <div id="project"></div>
+    </div>
     <div id="tech"></div>
+    <div id="contact"></div>
+    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
 
-    <div id="project"></div>
     <!-- End Primary View -->
 
     <!-- Footer -->
     <footer class="page-footer">
         <p>©2018 Maggie Leavell</p>
-        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
     </footer>
     <!-- End Footer -->
 </body>

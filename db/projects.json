@@ -1,0 +1,31 @@
+{
+  "projects" : [
+    {
+      "title": "Chatty Chatty Bang Bang",
+      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap 4, and ES6 Modules",
+      "available": "true",
+      "url": "https://github.com/nss-evening-cohort-8/chatty-spatulas",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-spatulas"
+    },
+    {
+      "title": "Cool Project 2",
+      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": "true",
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+    {
+      "title": "Cool Project 3",
+      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": "true",
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    }
+  ]
+}
