@@ -13,7 +13,7 @@ const extractScss = new ExtractTextPlugin({
 
 module.exports = {
   entry: {
-    bundle: './src/project.js'
+    bundle: './src/index.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
