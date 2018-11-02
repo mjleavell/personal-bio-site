@@ -5,7 +5,7 @@ const writeProjects = (projects) => {
   let domString = '';
   projects.forEach((project) => {
     domString += `
-    <div class="row projects m-2">
+    <div class="row projects">
       <div class="col-md-7">
         <h3 style="width: 700px; height: 300px;">Future screenshot here</h3>
         <p>width: 700px; height: 300px</p>
