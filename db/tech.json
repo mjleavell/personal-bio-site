@@ -1,0 +1,25 @@
+{
+  "tech": [
+    {
+      "title": "HTML5",
+      "url": "https://addons.thunderbird.net/user-media/addon_icons/1/1556-64.png?modified=1532802742"
+    },
+    {
+      "title": "CSS",
+      "url": "https://addons-media.operacdn.com/media/extensions/85/19985/2.1-rev3/icons/icon_64x64.png"
+    },
+    {
+      "title": "JavaScript",
+      "url": "https://png.pngtree.com/svg/20170719/javascript_633988.png"
+    },
+    {
+      "title": "Bootstrap",
+      "url": "https://dl1.cbsistatic.com/i/r/2017/06/26/dbfe37ad-a50e-4c0d-898a-39cabe7c90d6/thumbnail/64x64/7e4ebb9cfb7eb84aecddb221b75b7c70/imgingest-7334605664234437748.png"
+    },
+    {
+      "title": "sass",
+      "url": "https://dl1.cbsistatic.com/i/r/2016/11/29/041c9966-45a3-48dd-9ec3-5c5b33c7850a/thumbnail/64x64/aec759fe02dfacd5bc75b58c8a326fa5/imgingest-4742415640874661646.png"
+    }
+
+  ]
+}

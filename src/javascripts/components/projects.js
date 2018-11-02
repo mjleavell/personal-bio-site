@@ -12,8 +12,10 @@ const writeProjects = (projects) => {
       </div>
       <div class="col-md-5">
         <h3>${project.title}</h3>
+        <p><strong>Technologies Used:</strong> ${project.technologiesUsed}</p>
         <p>${project.description}</p>
-        <a class="btn btn-primary" href="#">View Project</a>
+        <a class="btn btn-light" href="${project.githubUrl}" target=_blank>View Project on Github</a>
+        <a class="btn btn-light" href="${project.url}" target=_blank>View Live Project</a>
       </div>
     </div>
     <hr>`;
