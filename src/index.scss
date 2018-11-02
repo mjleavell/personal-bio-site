@@ -1,7 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
-#home {
+#header, #header .container {
   background-color: lightblue;
-  width: 100%;
-  height: 30rem;
+  // height: 30rem;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
 }
