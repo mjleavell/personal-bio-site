@@ -1,12 +1,34 @@
 @import "~bootstrap/scss/bootstrap";
 
-#header, #header .container {
-  background-color: lightblue;
-  // height: 30rem;
+#header {
+  height: 95vh;
+  min-height: 500px;
+  background-image: url('https://stmed.net/sites/default/files/nashville-wallpapers-28757-5020247.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#header .container {
+  background-color: transparent;
+}
+
+#header h1 {
+  font-size: 8vh;
+  color:white;
+  text-shadow: 2px 2px black;
+}
+
+#header p {
+  font-size: 3vh;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 body {
   background-color: lightgray;
+  background-position: fixed;
 }
 
 .container {
