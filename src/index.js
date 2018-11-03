@@ -1,11 +1,15 @@
+import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
-import projectsView from './javascripts/components/projects';
-import techView from './javascripts/components/tech';
+import initProjectsView from './javascripts/components/projects';
+import initTechView from './javascripts/components/tech';
+import chatty from './images/chatty.png';
+
+$('#about-img').attr('src', chatty);
 
 const initApp = () => {
-  projectsView.initProjectsView();
-  techView.initTechView();
+  initProjectsView();
+  initTechView();
 };
 
 initApp();

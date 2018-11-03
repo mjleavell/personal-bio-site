@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import techData from '../data/techData';
+import loadTech from '../data/techData';
 
 const writeTech = (techArr) => {
   let domString = '';
@@ -13,11 +13,12 @@ const writeTech = (techArr) => {
 };
 
 const initTechView = () => {
-  techData.loadTech().then((tech) => {
-    writeTech(tech);
+  loadTech().then((data) => {
+    console.log(data.data);
+    writeTech(data.data);
   }).catch((error) => {
     console.error(error);
   });
 };
 
-export default { initTechView };
+export default initTechView;
