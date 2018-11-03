@@ -1,8 +1,8 @@
 {
-  "projects" : [
+  "projects": [
     {
       "title": "Chatty Chatty Bang Bang",
-      "screenshot": "http://www.independentmediators.co.uk/wp-content/uploads/2016/02/placeholder-image.jpg",
+      "screenshot": "https://github.com/nss-evening-cohort-8/chatty-spatulas/blob/master/screenshots/emoji.png?raw=true",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap 4, and ES6 Modules",
       "available": "true",
@@ -10,22 +10,22 @@
       "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-spatulas"
     },
     {
-      "title": "Cool Project 2",
-      "screenshot": "http://www.independentmediators.co.uk/wp-content/uploads/2016/02/placeholder-image.jpg",
+      "title": "Bands",
+      "screenshot": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky/raw/master/images/homescreen.PNG",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "technologiesUsed": "HTML, CSS, and Vanilla JavaScript",
       "available": "true",
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky"
     },
     {
-      "title": "Cool Project 3",
-      "screenshot": "http://www.independentmediators.co.uk/wp-content/uploads/2016/02/placeholder-image.jpg",
+      "title": "Almost Amazon",
+      "screenshot": "https://github.com/mjleavell/almost-amazon/raw/master/images/homepage.png",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap 4, and ES6 Modules",
       "available": "true",
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://github.com/mjleavell/almost-amazon",
+      "githubUrl": "https://github.com/mjleavell/almost-amazon"
     }
   ]
 }

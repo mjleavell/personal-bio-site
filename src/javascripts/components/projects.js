@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import projectData from '../data/projectData';
+import loadProjects from '../data/projectData';
 
 const writeProjects = (projects) => {
   let domString = '';
@@ -18,7 +18,6 @@ const writeProjects = (projects) => {
           <img class="img-fluid rounded mb-3 mb-md-0" src="${project.screenshot}" alt="">
         </a>
       </div>
-
     </div>
     <hr>`;
   });
@@ -26,11 +25,12 @@ const writeProjects = (projects) => {
 };
 
 const initProjectsView = () => {
-  projectData.loadProjects().then((projects) => {
-    writeProjects(projects);
+  loadProjects().then((data) => {
+    console.log(data.data);
+    writeProjects(data.data);
   }).catch((error) => {
     console.error(error);
   });
 };
 
-export default { initProjectsView };
+export default initProjectsView;
