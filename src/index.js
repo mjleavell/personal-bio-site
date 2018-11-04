@@ -3,9 +3,9 @@ import 'bootstrap';
 import './index.scss';
 import initProjectsView from './javascripts/components/projects';
 import initTechView from './javascripts/components/tech';
-import chatty from './images/chatty.png';
+import canyon from './images/canyon.png';
 
-$('#about-img').attr('src', chatty);
+$('#about-img').attr('src', canyon);
 
 const initApp = () => {
   initProjectsView();
