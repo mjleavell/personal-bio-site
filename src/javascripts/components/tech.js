@@ -6,8 +6,8 @@ const writeTech = (techArr) => {
   console.log(techArr);
   techArr.forEach((tech) => {
     domString += `
-    <div class="col m-2">
-        <img class="mb-3 mb-md-0 src="${tech.url}" alt="${tech.title}">
+    <div class="col m-2 text-center">
+        <img class="mb-3 mb-md-0" src="${tech.techUrl}" alt="${tech.title}" style="width: 64px; height: 64px">
     </div>`;
   });
   $('#tech').html(domString);

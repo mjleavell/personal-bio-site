@@ -3,9 +3,9 @@ import 'bootstrap';
 import './index.scss';
 import initProjectsView from './javascripts/components/projects';
 import initTechView from './javascripts/components/tech';
-import canyon from './images/canyon.png';
+import wedcirc from './images/wedcirc.png';
 
-$('#about-img').attr('src', canyon);
+$('#about-img').attr('src', wedcirc);
 
 const initApp = () => {
   initProjectsView();
