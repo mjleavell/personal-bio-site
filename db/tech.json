@@ -2,23 +2,23 @@
   "tech": [
     {
       "title": "HTML5",
-      "url": "https://www.iconfinder.com/data/icons/HTML5/512/HTML_Badge.png"
+      "techUrl": "https://www.iconfinder.com/data/icons/HTML5/512/HTML_Badge.png"
     },
     {
       "title": "CSS",
-      "url": "https://www.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
+      "techUrl": "https://www.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
     },
     {
       "title": "JavaScript",
-      "url": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_64/javascriptlang.png"
+      "techUrl": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_64/javascriptlang.png"
     },
     {
       "title": "Bootstrap",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/64px-Boostrap_logo.svg.png"
+      "techUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/64px-Boostrap_logo.svg.png"
     },
     {
       "title": "sass",
-      "url": "https://www.iconfinder.com/data/icons/designer-skills/128/sass-64.png"
+      "techUrl": "https://www.iconfinder.com/data/icons/designer-skills/128/sass-64.png"
     }
 
   ]
