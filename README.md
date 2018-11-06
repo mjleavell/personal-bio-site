@@ -9,11 +9,31 @@ This project should be a single-page application that interacts with the user by
  ## How to run this project
 * Use npm to install http-server in your terminal:
 ```sh
-npm install -g http-server
+npm install
+```
+* Open new terminal:
+```
+npm run projects 
+```
+* Open chrome and navigate to:
+```
+localhost:3003/projects
+```
+* Open new terminal:
+```
+npm run tech 
+```
+* Open chrome and navigate to:
+```
+localhost:3004/tech
 ```
 * Run the server in your terminal
 ```sh
-hs -p 9999
+npm start -p 9999
+```
+* Open chrome and navigate to:
+```
+localhost:9999
 ```
 * Open chrome and navigate to:
 ```

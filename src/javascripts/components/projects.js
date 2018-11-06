@@ -10,8 +10,8 @@ const writeProjects = (projects) => {
         <h3>${project.title}</h3>
         <p><strong>Technologies Used:</strong> ${project.technologiesUsed}</p>
         <p>${project.description}</p>
-        <a class="btn btn-light" href="${project.githubUrl}" target=_blank>View on Github</a>
-        <a class="btn btn-light" href="${project.url}" target=_blank>View Live Demo</a>
+        <a class="btn btn-outline-secondary" href="${project.githubUrl}" target=_blank>View on Github</a>
+        <a class="btn btn-outline-secondary" href="${project.url}" target=_blank>View Live Demo</a>
       </div>
       <div class="col-md-7 p-2">
         <a href="${project.githubUrl}" target="_blank">
