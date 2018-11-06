@@ -18,7 +18,27 @@
     },
     {
       "title": "sass",
-      "techUrl": "https://www.iconfinder.com/data/icons/designer-skills/128/sass-64.png"
+      "techUrl": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg"
+    },
+    {
+      "title": "C#",
+      "techUrl": "https://banner2.kisspng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b89919299aab1.1956912415357423546294.jpg"
+    },
+    {
+      "title": "React",
+      "techUrl": "https://png.pngtree.com/svg/20170719/react_1353128.png"
+    },
+    {
+      "title": "Babel",
+      "techUrl": "https://cdn.iconscout.com/icon/free/png-256/babel-282912.png"
+    },
+    {
+      "title": "jQuery",
+      "techUrl": "https://www.veaudry.pro/static/media/jquery.450f2b96.png"
+    },
+    {
+      "title": "firebase",
+      "techUrl": "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
     }
 
   ]
