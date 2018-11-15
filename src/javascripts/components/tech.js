@@ -14,8 +14,8 @@ const writeTech = (techArr) => {
 
 const initTechView = () => {
   loadTech().then((data) => {
-    console.log(data.data);
-    writeTech(data.data);
+    console.log(data);
+    writeTech(data);
   }).catch((error) => {
     console.error(error);
   });

@@ -26,7 +26,7 @@ const writeProjects = (projects) => {
 
 const initProjectsView = () => {
   loadProjects().then((data) => {
-    writeProjects(data.data);
+    writeProjects(data);
   }).catch((error) => {
     console.error(error);
   });

@@ -1,6 +1,6 @@
 {
-  "projects": [
-    {
+  "projects": {
+    "project1": {
       "title": "Chatty Chatty Bang Bang",
       "screenshot": "https://github.com/nss-evening-cohort-8/chatty-spatulas/blob/master/screenshots/emoji.png?raw=true",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
@@ -9,7 +9,7 @@
       "url": "https://github.com/nss-evening-cohort-8/chatty-spatulas",
       "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-spatulas"
     },
-    {
+    "project2": {
       "title": "Bands",
       "screenshot": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky/raw/master/images/homescreen.PNG",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
@@ -18,7 +18,7 @@
       "url": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky",
       "githubUrl": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky"
     },
-    {
+    "project3": {
       "title": "Almost Amazon",
       "screenshot": "https://github.com/mjleavell/almost-amazon/raw/master/images/homepage.png",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
@@ -27,5 +27,5 @@
       "url": "https://github.com/mjleavell/almost-amazon",
       "githubUrl": "https://github.com/mjleavell/almost-amazon"
     }
-  ]
+  }
 }
