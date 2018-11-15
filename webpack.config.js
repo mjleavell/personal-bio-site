@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const env = process.env.NODE_ENV || 'development';
 const isDev = env === 'development';
-const isProd = env === 'production';
+// const isProd = env === 'production';
 
 const extractScss = new ExtractTextPlugin({
   filename: 'index.css',
@@ -12,6 +12,7 @@ const extractScss = new ExtractTextPlugin({
 });
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     bundle: './src/index.js'
   },
