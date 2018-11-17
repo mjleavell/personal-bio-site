@@ -4,7 +4,7 @@
 This project should be a single-page application that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from the server. 
 
  ## Screenshots
-![main screenshot](./images/bio2.png)
+![main screenshot](./src/images/bio1.png)
 
  ## How to run this project
 * Use npm to install http-server in your terminal:
