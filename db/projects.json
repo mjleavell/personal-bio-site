@@ -1,31 +1,29 @@
 {
-  "projects": {
-    "project1": {
-      "title": "Chatty Chatty Bang Bang",
-      "screenshot": "https://github.com/nss-evening-cohort-8/chatty-spatulas/blob/master/screenshots/emoji.png?raw=true",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap 4, and ES6 Modules",
-      "available": "true",
-      "url": "https://github.com/nss-evening-cohort-8/chatty-spatulas",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-spatulas"
-    },
-    "project2": {
-      "title": "Bands",
-      "screenshot": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky/raw/master/images/homescreen.PNG",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
-      "technologiesUsed": "HTML, CSS, and Vanilla JavaScript",
-      "available": "true",
-      "url": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/bandz-kinky-slinky"
-    },
-    "project3": {
-      "title": "Almost Amazon",
-      "screenshot": "https://github.com/mjleavell/almost-amazon/raw/master/images/homepage.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore ducimus sint, voluptatum, nam maiores earum odit fugit quos iste nobis iure eum fuga nihil quisquam tenetur, a excepturi omnis!",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap 4, and ES6 Modules",
-      "available": "true",
-      "url": "https://github.com/mjleavell/almost-amazon",
-      "githubUrl": "https://github.com/mjleavell/almost-amazon"
-    }
+  "project1": {
+    "title": "Nutshell - Chufas",
+    "screenshot": "https://github.com/nss-evening-cohort-8/nutshell-chufas/raw/master/screenshots/main-page.png",
+    "description": "Nutshell is a dashboard for people to organize their daily weather, events, articles, and chat messages.",
+    "technologiesUsed": "HTML, Sass, JavaScript, Bootstrap 4, jQuery, Axios, Firebase, CRUD, and Webpack",
+    "available": "true",
+    "url": "https://nutshell-chufas.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-chufas"
+  },
+  "project2": {
+    "title": "Todo App",
+    "screenshot": "https://github.com/mjleavell/todo/raw/master/screenshots/homepage.png",
+    "description": "The purpose of this assignment was to utilize CRUD and firebase to create a to do application.",
+    "technologiesUsed": "HTML, Sass, JavaScript, Bootstrap, jQuery, Axios, Firebase, CRUD, and Webpack",
+    "available": "true",
+    "url": "https://todo-32469.firebaseapp.com/",
+    "githubUrl": "https://github.com/mjleavell/todo"
+  },
+  "project3": {
+    "title": "Developer Portal",
+    "screenshot": "https://www.absolutefencinggear.com/shopping/images/Not_available.jpg",
+    "description": "Developer Portal is a React application using the GitHub API",
+    "technologiesUsed": "JSX, Sass, Bootstrap, reacstrap, Axios, Firebase, CRUD, and React",
+    "available": "true",
+    "url": "https://developer-portal-634fa.firebaseapp.com/",
+    "githubUrl": "https://github.com/mjleavell/developer-portal"
   }
 }
