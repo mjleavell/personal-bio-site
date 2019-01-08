@@ -5,7 +5,7 @@ const writeTech = (techArr) => {
   let domString = '';
   techArr.forEach((tech) => {
     domString += `
-    <div class="col-md-2 m-2 text-center">
+    <div class="col-md-1 m-4">
         <img class="mb-3 mb-md-0" src="${tech.techUrl}" alt="${tech.title}" style="width: 64px; height: 64px">
     </div>`;
   });
