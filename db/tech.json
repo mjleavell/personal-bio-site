@@ -1,44 +1,58 @@
 {
-  "tech": {
-    "tech1": {
-      "title": "HTML5",
-      "techUrl": "https://www.iconfinder.com/data/icons/HTML5/512/HTML_Badge.png"
-    },
-    "tech2": {
-      "title": "CSS",
-      "techUrl": "https://www.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
-    },
-    "tech3": {
-      "title": "JavaScript",
-      "techUrl": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_64/javascriptlang.png"
-    },
-    "tech4": {
-      "title": "Bootstrap",
-      "techUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/64px-Boostrap_logo.svg.png"
-    },
-    "tech5": {
-      "title": "sass",
-      "techUrl": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg"
-    },
-    "tech6": {
-      "title": "C#",
-      "techUrl": "https://banner2.kisspng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b89919299aab1.1956912415357423546294.jpg"
-    },
-    "tech7": {
-      "title": "React",
-      "techUrl": "https://png.pngtree.com/svg/20170719/react_1353128.png"
-    },
-    "tech8": {
-      "title": "Babel",
-      "techUrl": "https://cdn.iconscout.com/icon/free/png-256/babel-282912.png"
-    },
-    "tech9": {
-      "title": "jQuery",
-      "techUrl": "https://www.veaudry.pro/static/media/jquery.450f2b96.png"
-    },
-    "tech10": {
-      "title": "firebase",
-      "techUrl": "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
-    }
+  "tech1": {
+    "title": "HTML5",
+    "techUrl": "https://www.iconfinder.com/data/icons/HTML5/512/HTML_Badge.png"
+  },
+  "tech5": {
+    "title": "CSS",
+    "techUrl": "https://www.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
+  },
+  "tech3": {
+    "title": "JavaScript",
+    "techUrl": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_64/javascriptlang.png"
+  },
+  "tech12": {
+    "title": "Bootstrap",
+    "techUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/64px-Boostrap_logo.svg.png"
+  },
+  "tech2": {
+    "title": "sass",
+    "techUrl": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg"
+  },
+  "tech6": {
+    "title": "C#",
+    "techUrl": "https://banner2.kisspng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b89919299aab1.1956912415357423546294.jpg"
+  },
+  "tech7": {
+    "title": "React",
+    "techUrl": "https://png.pngtree.com/svg/20170719/react_1353128.png"
+  },
+  "tech8": {
+    "title": "Babel",
+    "techUrl": "https://cdn.iconscout.com/icon/free/png-256/babel-282912.png"
+  },
+  "tech9": {
+    "title": "jQuery",
+    "techUrl": "https://www.veaudry.pro/static/media/jquery.450f2b96.png"
+  },
+  "tech10": {
+    "title": "firebase",
+    "techUrl": "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
+  },
+  "tech4": {
+    "title": "Webpack",
+    "techUrl": "https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png"
+  },
+  "tech13": {
+    "title": "VS Code",
+    "techUrl": "https://user-images.githubusercontent.com/10379994/31985754-c56b8dba-b998-11e7-9705-a7f984433049.png"
+  },
+  "tech14": {
+    "title": "git",
+    "techUrl": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  },
+  "tech11": {
+    "title": "gitHub",
+    "techUrl": "https://cdn1.iconfinder.com/data/icons/logotypes/32/github-512.png"
   }
 }
