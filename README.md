@@ -4,40 +4,10 @@
 This project should be a single-page application that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from the server. 
 
  ## Screenshots
-![main screenshot](./src/images/bio1.png)
+![main screenshot](./src/images/bio3.png)
 
  ## How to run this project
-* Use npm to install http-server in your terminal:
-```sh
-npm install
-```
-* Open new terminal:
-```
-npm run projects 
-```
-* Open chrome and navigate to:
-```
-localhost:3003/projects
-```
-* Open new terminal:
-```
-npm run tech 
-```
-* Open chrome and navigate to:
-```
-localhost:3004/tech
-```
-* Run the server in your terminal
-```sh
-npm start -p 9999
-```
-* Open chrome and navigate to:
-```
-localhost:9999
-```
-* Open chrome and navigate to:
-```
-localhost:9999
-```
+[View Site](https://personal-bio-site-3b9ee.firebaseapp.com/)
+
  ## Contributors
 [Maggie Leavell](https://github.com/mjleavell)
